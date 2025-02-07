@@ -1,1 +1,88 @@
-{"name":"Abhishek","headerTaglineOne":"Hi!","headerTaglineTwo":"I'm Abhishek Pandit ","headerTaglineThree":"Front End Developer","headerTaglineFour":" based in Amsterdam, Netherlands","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/abhipandSogeti"},{"id":"2","title":"LinkedIn","link":"https://nl.linkedin.com/in/panditabhishek24/nl"},{"id":"5","title":"Email","link":"mailto:Abhishek.pandit@sogeti.com"}],"projects":[{"id":"1","title":"CyberSoek, Amsterdam","description":"Design and Developement","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"https://cybersoek.nl/"},{"id":"c2af49bd-744c-48a3-a833-60e9be651013","title":"ING, Amsterdam","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"https://www.ing.nl/zakelijk"}],"services":[],"aboutpara":"I have almost 10 years of experience in software development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n","resume":{"tagline":"I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"Oct 2024 - Present","type":"Full Time","position":"Frontend Engineer at CyberSoek, Amsterdam","bullets":"Worked on the frontend of the new application, Implemented a admin dashboard and a lottery mechanism front end, Tech stack used here is React, Redux and Mantine "},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"April 2022 - Oct  2024","type":"Full Time","position":"Frontend Engineer at ING, Amsterdam","bullets":"Worked on the frontend of the banking application, Implemented new KYC based processes using web-components & Lit-HTML "}],"education":{"universityName":"SRM University","universityDate":"2010 - 2014","universityPara":"I hold a four year  Bachelors degree in Electronics & Communication Engineering."},"languages":["Javascript","HTML5","CSS","C","TypeScript","ES6"],"frameworks":["React","Typescript","NodeJs","Angular","Web Components","Lit-HTML"],"others":["Figma","Azure DevOPs"]}}
+{
+  "name": "Abhishek",
+  "headerTaglineOne": "Hi!",
+  "headerTaglineTwo": "I'm Abhishek Pandit ",
+  "headerTaglineThree": "Front End Developer",
+  "headerTaglineFour": " based in Amsterdam, Netherlands",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/abhipandSogeti"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://nl.linkedin.com/in/panditabhishek24/nl"
+    },
+    { "id": "5", "title": "Email", "link": "mailto:Abhishek.pandit@sogeti.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "CyberSoek, Amsterdam",
+      "description": "Design and Developement",
+      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "https://cybersoek.nl/"
+    },
+    {
+      "id": "c2af49bd-744c-48a3-a833-60e9be651013",
+      "title": "ING, Amsterdam",
+      "description": "Design & Development",
+      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "https://www.ing.nl/zakelijk"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Frontend Development",
+      "description": "I have almost 10 years of experience in software development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n"
+    },
+    {
+      "id": "2",
+      "title": "Product Design",
+      "description": "I am keen on designing and developing products that are user-friendly and accessible. I have delivered world-class user experiences to millions of people."
+    }
+  ],
+  "aboutpara": "I have almost 10 years of experience in software development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n",
+  "resume": {
+    "tagline": "I'm a software engineer, product designer.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Oct 2024 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at CyberSoek, Amsterdam",
+        "bullets": "Worked on the frontend of the new application, Implemented a admin dashboard and a lottery mechanism front end, Tech stack used here is React, Redux and Mantine "
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "April 2022 - Oct  2024",
+        "type": "Full Time",
+        "position": "Frontend Engineer at ING, Amsterdam",
+        "bullets": "Worked on the frontend of the banking application, Implemented new KYC based processes using web-components & Lit-HTML "
+      }
+    ],
+    "education": {
+      "universityName": "SRM University",
+      "universityDate": "2010 - 2014",
+      "universityPara": "I hold a four year  Bachelors degree in Electronics & Communication Engineering."
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "C", "TypeScript", "ES6"],
+    "frameworks": [
+      "React",
+      "Typescript",
+      "NodeJs",
+      "Angular",
+      "Web Components",
+      "Lit-HTML"
+    ],
+    "others": ["Figma", "Azure DevOPs"]
+  }
+}
