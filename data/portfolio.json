@@ -21,6 +21,23 @@
     },
     { "id": "5", "title": "Email", "link": "mailto:Abhishek.pandit@sogeti.com" }
   ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Frontend Development & Design",
+      "description": "I have almost 10 years of experience in software development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n"
+    },
+    {
+      "id": "2",
+      "title": "Product Design",
+      "description": "I am keen on designing and developing products that are user-friendly and accessible."
+    },
+    {
+        "id": "3",
+        "title": "Motion Design",
+        "description": "I am an enthusiast of motion design and I love to create animations that are visually appealing." 
+      }
+  ],
   "projects": [
     {
       "id": "1",
@@ -37,19 +54,7 @@
       "url": "https://www.ing.nl/zakelijk"
     }
   ],
-  "services": [
-    {
-      "id": "1",
-      "title": "Frontend Development",
-      "description": "I have almost 10 years of experience in software development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n"
-    },
-    {
-      "id": "2",
-      "title": "Product Design",
-      "description": "I am keen on designing and developing products that are user-friendly and accessible. I have delivered world-class user experiences to millions of people."
-    }
-  ],
-  "aboutpara": "I have almost 10 years of experience in software development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n",
+  "aboutpara": "I have almost 10 years of experience in Design & development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines. \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n",
   "resume": {
     "tagline": "I'm a software engineer, product designer.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
