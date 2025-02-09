@@ -75,3 +75,7 @@ body {
   background: inherit;
   border-radius: inherit;
 }
+
+.design svg{
+  width: 100vw;
+}
