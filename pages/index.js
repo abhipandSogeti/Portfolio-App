@@ -13,6 +13,7 @@ import Cursor from "../components/Cursor";
 // Local Data
 import data from "../data/portfolio.json";
 
+
 export default function Home() {
   useEffect(() => {
     function loadAdditionalObservable() {
@@ -107,7 +108,6 @@ export default function Home() {
             </h1>
           </div>
           <div className="design" id="observablehq-chart-7fc88a7a"></div>
-
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
@@ -152,8 +152,6 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
-        <div id="observablehq-viewof-offset-453c6cfe"></div>
-        <div className="design" id="observablehq-chart-453c6cfe"></div>
         <Footer />
       </div>
     </div>

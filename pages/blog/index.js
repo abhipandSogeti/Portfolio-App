@@ -61,6 +61,7 @@ const Blog = ({ posts }) => {
     }
   };
   return (
+    
     showBlog.current && (
       <>
         {data.showCursor && <Cursor />}
@@ -115,6 +116,8 @@ const Blog = ({ posts }) => {
                 ))}
             </div>
           </div>
+          <iframe width="100%" height="584" frameBorder="0"
+  src="https://observablehq.com/embed/e94db124a41b5204@199?cells=chart"></iframe>
         </div>
         {process.env.NODE_ENV === "development" && mounted && (
           <div className="fixed bottom-6 right-6">
@@ -123,6 +126,7 @@ const Blog = ({ posts }) => {
             </Button>
           </div>
         )}
+        
       </>
     )
   );
