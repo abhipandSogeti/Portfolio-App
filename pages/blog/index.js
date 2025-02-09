@@ -61,7 +61,6 @@ const Blog = ({ posts }) => {
     }
   };
   return (
-    
     showBlog.current && (
       <>
         {data.showCursor && <Cursor />}
@@ -82,7 +81,7 @@ const Blog = ({ posts }) => {
               Blog.
             </h1>
             <div className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
-              {posts &&
+              {/* {posts &&
                 posts.map((post) => (
                   <div
                     className="cursor-pointer relative"
@@ -113,11 +112,23 @@ const Blog = ({ posts }) => {
                       </div>
                     )}
                   </div>
-                ))}
+                ))} */}
+            </div>
+            <div className="flex flex-col laptop:flex-row gap-10">
+              <iframe
+                width="100%"
+                height="714"
+                frameBorder="0"
+                src="https://observablehq.com/embed/e94db124a41b5204@199?cells=chart"
+              ></iframe>
+              <iframe
+                width="100%"
+                height="714"
+                frameBorder="0"
+                src="https://observablehq.com/embed/ddee7f61201ab982@236?cells=canvas&api_key=43555a70ea480b9b23af3ef95b901a4f35df0047"
+              ></iframe>
             </div>
           </div>
-          <iframe width="100%" height="584" frameBorder="0"
-  src="https://observablehq.com/embed/e94db124a41b5204@199?cells=chart"></iframe>
         </div>
         {process.env.NODE_ENV === "development" && mounted && (
           <div className="fixed bottom-6 right-6">
@@ -126,7 +137,6 @@ const Blog = ({ posts }) => {
             </Button>
           </div>
         )}
-        
       </>
     )
   );
