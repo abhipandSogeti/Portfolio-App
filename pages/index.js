@@ -13,30 +13,23 @@ import Cursor from "../components/Cursor";
 // Local Data
 import data from "../data/portfolio.json";
 
-function loadObservable() {
-  const script = document.createElement("script");
-  script.type = "module";
-  script.innerHTML = `
-    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-    import define from "https://api.observablehq.com/@d3/streamgraph-transitions.js?v=4";
-    
-    new Runtime().module(define, name => {
-      if (name === "viewof offset") return new Inspector(document.querySelector("#observablehq-viewof-offset-453c6cfe"));
-      if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-453c6cfe"));
-    });
-  `;
-  document.body.appendChild(script);
-
-  const link = document.createElement("link");
-  link.rel = "stylesheet";
-  link.href =
-    "https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css";
-  document.head.appendChild(link);
-}
-
 export default function Home() {
   useEffect(() => {
-    loadObservable();
+    function loadAdditionalObservable() {
+      const script = document.createElement("script");
+      script.type = "module";
+      script.innerHTML = `
+        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+        import define from "https://api.observablehq.com/d/e94db124a41b5204.js?v=4";
+        
+        new Runtime().module(define, name => {
+          if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-7fc88a7a"));
+        });
+      `;
+      document.body.appendChild(script);
+    }
+
+    loadAdditionalObservable();
   }, []);
   // Ref
   const workRef = useRef();
@@ -113,8 +106,7 @@ export default function Home() {
               {data.headerTaglineFour}
             </h1>
           </div>
-          <div id="observablehq-viewof-offset-453c6cfe"></div>
-          <div className="design" id="observablehq-chart-453c6cfe"></div>
+          <div className="design" id="observablehq-chart-7fc88a7a"></div>
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
@@ -160,6 +152,8 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
+        <div id="observablehq-viewof-offset-453c6cfe"></div>
+        <div className="design" id="observablehq-chart-453c6cfe"></div>
         <Footer />
       </div>
     </div>
