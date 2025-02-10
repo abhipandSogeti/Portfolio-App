@@ -117,14 +117,12 @@ const Blog = ({ posts }) => {
             <div className="flex flex-col laptop:flex-row gap-10">
               <iframe
                 width="100%"
-                height="714"
-                frameBorder="0"
+                height="480"
                 src="https://observablehq.com/embed/e94db124a41b5204@199?cells=chart"
               ></iframe>
               <iframe
                 width="100%"
-                height="714"
-                frameBorder="0"
+                height="480"
                 src="https://observablehq.com/embed/ddee7f61201ab982@236?cells=canvas&api_key=43555a70ea480b9b23af3ef95b901a4f35df0047"
               ></iframe>
             </div>

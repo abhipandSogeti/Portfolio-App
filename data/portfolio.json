@@ -33,25 +33,24 @@
       "description": "I am keen on designing and developing products that are user-friendly and accessible."
     },
     {
-        "id": "3",
-        "title": "Motion Design",
-        "description": "I am an enthusiast of motion design and I love to create animations that are visually appealing." 
-      }
+      "id": "3",
+      "title": "Motion Design",
+      "description": "I am an enthusiast of motion design and I love to create animations that are visually appealing."
+    }
   ],
   "projects": [
     {
       "id": "1",
       "title": "CyberSoek, Amsterdam",
       "description": "Design & Developement",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "imageSrc": "/images/chart.svg",
       "url": "https://cybersoek.nl/"
     },
     {
       "id": "c2af49bd-744c-48a3-a833-60e9be651013",
       "title": "ING, Amsterdam",
       "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "https://www.ing.nl/zakelijk"
+      "imageSrc": "/images/chart (4).svg"
     }
   ],
   "aboutpara": "I have almost 10 years of experience in Design & development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines. \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n",
