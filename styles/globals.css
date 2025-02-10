@@ -79,3 +79,7 @@ body {
 .design svg{
   width: 100vw;
 }
+
+.duration-300 {
+  transition-duration: 1600ms;
+}

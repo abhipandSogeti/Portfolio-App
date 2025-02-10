@@ -1,8 +1,8 @@
 {
-  "name": "Abhishek",
+  "name": "Pandit",
   "headerTaglineOne": "Hi!",
   "headerTaglineTwo": "I'm Abhishek Pandit ",
-  "headerTaglineThree": "Front End Developer",
+  "headerTaglineThree": "Front End Consultant",
   "headerTaglineFour": " based in Amsterdam, Netherlands",
   "showCursor": true,
   "showBlog": true,
@@ -24,7 +24,7 @@
   "services": [
     {
       "id": "1",
-      "title": "Frontend Development & Design",
+      "title": "Frontend Development",
       "description": "I have almost 10 years of experience in software development.\nThe clients I worked : ING, CyberSoek Amsterdam, Dell, Xerox, JP Morgan & Chase, Otsuka Pharmaceutical, Delta Airlines \nGained project based experience in React, Web-Components, ES6,Typescript, Angular Node js, Accessibility, AzureDevOps, lit-html\n"
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "id": "3",
-      "title": "Motion Design",
+      "title": "Visulaization & Design",
       "description": "I am an enthusiast of motion design and I love to create animations that are visually appealing."
     }
   ],
