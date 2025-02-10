@@ -114,17 +114,31 @@ const Blog = ({ posts }) => {
                   </div>
                 ))} */}
             </div>
-            <div className="flex flex-col laptop:flex-row gap-10">
-              <iframe
-                width="100%"
-                height="480"
-                src="https://observablehq.com/embed/e94db124a41b5204@199?cells=chart"
-              ></iframe>
-              <iframe
-                width="100%"
-                height="480"
-                src="https://observablehq.com/embed/ddee7f61201ab982@236?cells=canvas&api_key=43555a70ea480b9b23af3ef95b901a4f35df0047"
-              ></iframe>
+            <div className="flex flex-col laptop:flex-column gap-20">
+              <div>
+                <p className="text-2xl mb-4">Color Waves</p>
+                <iframe
+                  width="100%"
+                  height="600"
+                  src="https://observablehq.com/embed/e94db124a41b5204?cells=chart"
+                ></iframe>
+              </div>
+              <div>
+                <p className="text-2xl mb-4">Sphere flattening</p>
+                <iframe
+                  width="100%"
+                  height="820"
+                  src="https://observablehq.com/embed/ddee7f61201ab982@244?cells=canvas&api_key=4a290b4fd34c0a8fbe820348854e71dd01d21119"
+                ></iframe>
+              </div>
+              <div>
+                <p className="text-2xl mb-4">Infinite Tiles</p>
+                <iframe
+                  width="100%"
+                  height="714"
+                  src="https://observablehq.com/embed/f9af6525a3be40a9@248?cells=canvas&api_key=cf832a4fe8c26a75ee1ae0c3b2ab77ed92be1676"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
