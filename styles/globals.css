@@ -122,30 +122,59 @@ body {
 }
 .service-box-light {
   box-shadow: 5px 6px 9px 8px rgba(0, 0, 0, 0.1);
-  opacity: 0.7;
+  opacity: 0.8;
   background: linear-gradient(
     158deg,
-    rgb(255 255 255) 0%,
-    rgb(245 245 245) 82%,
-    rgb(23 202 191) 86%,
-    rgb(31 181 209) 87%,
-    rgb(65 126 224) 95%,
-    rgb(158 242 86) 95%
+    #fff,
+    #f6e9e2 87%,
+    #77b7b3 88%,
+    #e1575a 90%,
+    #edc949 95%,
+    #58a14e 97%
+  );
+}
+.service-box-light:hover {
+  box-shadow: 5px 6px 9px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  background: linear-gradient(
+    158deg,
+    #fff,
+    #f6e9e2 86%,
+    #77b7b3 87%,
+    #e1575a 89%,
+    #edc949 96%,
+    #58a14e 97%
   );
 }
 .service-box-dark {
   box-shadow: 5px 6px 9px 8px rgba(0, 0, 0, 0.1);
-  opacity: 0.7;
+  opacity: 0.8;
   background: linear-gradient(
-    27deg,
-    rgb(3 33 54) 95%,
-    #f0a0a8 96%,
-    rgb(8 28 43) 120%
+    158deg,
+    #2b3640,
+    #000000 87%,
+    #77b7b3 88%,
+    #e1575a 90%,
+    #edc949 95%,
+    #58a14e 97%
+  );
+}
+.service-box-dark:hover {
+  box-shadow: 5px 6px 9px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  background: linear-gradient(
+    158deg,
+    #2b3640,
+    #000000 86%,
+    #77b7b3 87%,
+    #e1575a 89%,
+    #edc949 96%,
+    #58a14e 97%
   );
 }
 .service-box:hover {
   box-shadow: 5px 6px 9px 8px rgba(0, 0, 0, 0.1);
-  opacity: 0.7;
+  opacity: 0.8;
   background: linear-gradient(
     158deg,
     rgb(31 119 180) 0%,
